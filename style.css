@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gluten:wght@600&family=Lobster&family=Oswald:wght@400;500&family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gluten:wght@600&family=Lobster&family=Oswald:wght@400;500&family=Ubuntu:ital@1&display=swap');
+
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar Start */
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.brand img{
+    width: 43px;
+    padding:0 7px;
+}
+
+.brand{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.bottom{
+    background-color: black;
+    height: 100px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    width: 70%;
+    margin: 10px auto;
+    padding: 0px;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+#myProgressbar{
+    width: 80vw;
+    cursor: pointer;
+    /* padding: 12px; */
+    margin-bottom: 12px;
+}
+.icons{
+    margin-top: 23px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songitemConteiner{
+    margin-top: 45px;
+}
+.songitem img{
+    width: 50px;
+    margin: 0 24px;
+    border-radius: 34px;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(157, 199, 212);
+    width: 40%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitemplay{
+    padding: 15px;
+}
+.songitemplay i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 9vw;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    /* padding-top:2px; */
+}
+#gif_Img{
+    opacity: 0;
+    transition: opacity 4s ease-in;
+    width: 120px;
+    /* padding-top: 2px; */
+}
